@@ -1,7 +1,10 @@
+# I need to add some comments to say what I was doing in this file
 #!/usr/bin/env python3
 # Cailyn Craven
+# With this package, we can work with arguments from the command line.
 import sys
 from operator import itemgetter
+# This file needs at least one argument to run.
 argc = len(sys.argv)
 if argc == 1:
     print("Usage: ./grades.py filename")
